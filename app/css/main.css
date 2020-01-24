@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
+
+a, a:hover {
+  text-decoration: none;
+  color: black;
+  user-select: none; }
+
+ul li {
+  list-style-type: none; }
+
+button:active, button:focus, input:focus {
+  outline: none; }
+
+p {
+  margin-bottom: 0; }
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0a800; }
+
+.main_content {
+  padding: 0 25px;
+  height: 237px;
+  width: 602px;
+  border: 1px solid #E2E5E6;
+  background-color: #ffffff;
+  border-radius: 2px; }
+
+.country_name {
+  margin-bottom: 8px;
+  margin-top: 17px; }
+  .country_name p {
+    width: max-content;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    color: #8C979A;
+    font-family: 'Roboto', sans-serif; }
+
+.tags {
+  height: 26px;
+  max-width: 173px;
+  border-radius: 13px;
+  background-color: #E6EFFB;
+  display: inline-block;
+  align-items: baseline; }
+
+.text_and_icon {
+  display: flex;
+  align-items: baseline; }
+
+.text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #373D3F;
+  padding-left: 6px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: calc(174px - (6px*2) - 12px); }
+
+.cancel_icon {
+  padding: 0 6px; }
+
+.cancel_icon i {
+  background-color: #ffffff;
+  border-radius: 50%;
+  color: #8C979A;
+  padding: 3px;
+  font-size: 6px; }
+
+@font-face {
+  font-family: 'location';
+  src: url("../fonts/location.eot?wf8d04");
+  src: url("../fonts/location.eot?wf8d04#iefix") format("embedded-opentype"), url("../fonts/location.ttf?wf8d04") format("truetype"), url("../fonts/location.woff?wf8d04") format("woff"), url("../fonts/location.svg?wf8d04#location") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'location' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-file-text2:before {
+  content: "\e926"; }
+
+.icon-location2:before {
+  content: "\e948"; }
+
+.icon-cross:before {
+  content: "\ea0f"; }

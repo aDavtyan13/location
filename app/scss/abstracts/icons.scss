@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'location';
+  src:  url('../fonts/location.eot?wf8d04');
+  src:  url('../fonts/location.eot?wf8d04#iefix') format('embedded-opentype'),
+  url('../fonts/location.ttf?wf8d04') format('truetype'),
+  url('../fonts/location.woff?wf8d04') format('woff'),
+  url('../fonts/location.svg?wf8d04#location') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'location' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-file-text2:before {
+  content: "\e926";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
