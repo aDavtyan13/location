@@ -1,0 +1,13 @@
+@import "../base/_base";
+@import "../abstracts/_variables";
+::-webkit-scrollbar {
+  width: $scroll--width;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: $scroll_border_radius;
+  background-color: $scroll--color;
+}
+::-webkit-scrollbar-track-piece{
+  background-color: #E7EEF4;
+  border-radius: $scroll_border_radius;
+}

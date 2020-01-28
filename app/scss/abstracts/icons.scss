@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'location';
-  src:  url('../fonts/location.eot?wf8d04');
-  src:  url('../fonts/location.eot?wf8d04#iefix') format('embedded-opentype'),
-  url('../fonts/location.ttf?wf8d04') format('truetype'),
-  url('../fonts/location.woff?wf8d04') format('woff'),
-  url('../fonts/location.svg?wf8d04#location') format('svg');
+  src:  url('../fonts/location.eot?l1t9t0');
+  src:  url('../fonts/location.eot?l1t9t0#iefix') format('embedded-opentype'),
+  url('../fonts/location.ttf?l1t9t0') format('truetype'),
+  url('../fonts/location.woff?l1t9t0') format('woff'),
+  url('../fonts/location.svg?l1t9t0#location') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,11 +25,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-chevron-down:before {
+  content: "\e900";
+}
 .icon-file-text2:before {
   content: "\e926";
 }
 .icon-location2:before {
   content: "\e948";
+}
+.icon-search:before {
+  content: "\e986";
 }
 .icon-cross:before {
   content: "\ea0f";
