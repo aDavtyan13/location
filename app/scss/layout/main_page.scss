@@ -23,15 +23,18 @@
 }
 
 .country_name {
-  margin: 17px 0 8px;
+  margin-bottom: 8px;
 }
 
 .second_country_name {
   margin: 8px 0 8px;
 }
 
+.main_container {
+  padding: 17px 0 8px 0;
+}
+
 .tag {
-  padding-bottom: 8px;
   border-bottom: 1px solid $tag_border--color;
 
   &_text p {
@@ -65,12 +68,10 @@
   padding: 0 6px;
 
   & i {
-    background-color: #ffffff;
+    background-color: $white;
     border-radius: 50%;
     color: #8C979A;
     padding: $cancel_icon--padding;
     font-size: $cancel_icon--size;
   }
 }
-
-

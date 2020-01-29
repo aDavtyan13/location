@@ -1,6 +1,7 @@
+$white: #ffffff;
 $main_content--padding: 0 25px;
 $main_content--width: 602px;
-$main_content--background: #ffffff;
+$main_content--background: $white;
 $main_content_border--radius: 2px;
 $tag_border--color: #E2E5E6;
 $tags_height: 26px;
@@ -8,7 +9,6 @@ $tags_border--radius: 13px;
 $tags_background: #E6EFFB;
 $tags_max--width: 173px;
 $tag_text--color: #373D3F;
-
 $cancel_icon--size: 6px;
 $cancel_icon--padding: $cancel_icon--size/2;
 $font-roboto: 'Roboto', sans-serif;
@@ -19,8 +19,17 @@ $search--width: 80%;
 $search_icon_and_placeholder--color: #C1C6C9;
 $presets_icon_and_text_color: #555F61;
 $down_icon--size: 10px;
-
-
 $scroll--color: #B3C0D4;
 $scroll--width: 9px;
 $scroll_border_radius: 10px;
+$presets_items_height: 32px;
+$search_container--width: 444px;
+$search_container_text_font--size: 14px;
+$search_container_text_span--color: #1F70DC;
+$search_container_item--height: 32px;
+$presets_container--height: 342px;
+$presets_container--width: 566px;
+$presents_descriptions_section--height: 214px;
+$search_by_name_icon--size: 20px;
+$checkmark_size: 16px;
+$font-weights: ("regular": 400, "medium": 500);
