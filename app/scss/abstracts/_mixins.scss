@@ -1,10 +1,12 @@
 @import "_variables";
-@mixin search_placeholder_and_text{
+
+@mixin search_placeholder_and_text {
   font-family: $font-roboto;
   font-size: $placeholder_font--size;
   line-height: $search_field_line--height;
 }
-@mixin country_name_text{
+
+@mixin country_name_text {
   width: max-content;
   font-size: 10px;
   letter-spacing: 1px;
