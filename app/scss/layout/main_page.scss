@@ -8,71 +8,69 @@
   align-items: center;
   height: 100vh;
   background-color: #1d2124;
+}
 
-  &__content {
-    padding: $main_content--padding;
-    width: $main_content--width;
-    border: 1px solid #E2E5E6;
-    background-color: $main_content--background;
-    border-radius: $main_content_border--radius;
-  }
+.multi-select {
+  padding: $main_content--padding;
+  width: $main_content--width;
+  border: 1px solid #E2E5E6;
+  background-color: $main_content--background;
+  border-radius: $main_content_border--radius;
 
   &__container {
     padding: 13px 0 8px 0;
+  }
 
-    &__name {
-      margin: 4px 0;
-    }
+  &__head__name {
+    margin: 4px 0;
 
-    &__second__name {
-      margin: 12px 0 2px;
-    }
-
-    &__name p, &__second__name p {
+    p {
       @include country_name_text;
     }
   }
 }
 
-.tags {
-  border-bottom: 1px solid map_get($color, "tag_border--color");
-  padding: 2px 0 4px;
-}
-
-.tag {
-  max-width: $tags_max--width;
-  display: inline-flex;
-  align-items: center;
-  height: $tags_height;
-  border-radius: $tags_border--radius;
-  background-color: $tags_background;
-  margin: 4px 7px 4px 0;
-
-  &__info {
-    max-width: calc(100% - (#{$cancel_icon--size} * 2) - 12px);
-
-    & p {
-      font-family: $font-roboto;
-      font-size: 12px;
-      line-height: 18px;
-      color: map_get($color, "tag_text--color");
-      padding-left: 8px;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden;
-    }
+.multi-select {
+  &__tags {
+    border-bottom: 1px solid map_get($color, "tag_border--color");
+    padding: 2px 0 4px;
   }
 
-  &__remove {
-    padding: 0 6px;
+  &__tag {
+    max-width: $tags_max--width;
+    display: inline-flex;
+    align-items: center;
+    height: $tags_height;
+    border-radius: $tags_border--radius;
+    background-color: $tags_background;
+    margin: 4px 7px 4px 0;
 
-    & i {
-      vertical-align: middle;
-      background-color: map_get($color, "white");
-      border-radius: 50%;
-      color: #8C979A;
-      padding: $cancel_icon--padding;
-      font-size: $cancel_icon--size;
+    &__info {
+      max-width: calc(100% - (#{$cancel_icon--size} * 2) - 12px);
+
+      & p {
+        font-family: $font-roboto;
+        font-size: 12px;
+        line-height: 18px;
+        color: map_get($color, "tag_text--color");
+        padding-left: 8px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+    }
+
+    &__remove {
+      padding: 0 6px;
+
+      & i {
+        vertical-align: middle;
+        background-color: map_get($color, "white");
+        border-radius: 50%;
+        color: #8C979A;
+        padding: $cancel_icon--padding;
+        font-size: $cancel_icon--size;
+      }
     }
   }
 }
